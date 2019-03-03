@@ -1,0 +1,6 @@
+body{
+    background-image: url("../images/cave.jpg") !important;
+    /* background-color: black; */
+    background-repeat: repeat-x;
+    background-position: center;
+}
