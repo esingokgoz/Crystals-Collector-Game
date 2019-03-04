@@ -1,6 +1,28 @@
 body{
-    background-image: url("../images/cave.jpg") !important;
-    /* background-color: black; */
-    background-repeat: repeat-x;
+    /* background-image: url("../images/cave.jpg") !important; */
+    /* background-image: url("../images/minerals.jpg") !important; */
+    background-color: #4AD4E1;
+    background-repeat: repeat;
     background-position: center;
 }
+.title{
+    text-align: center !important;
+    background-color: white;
+    color: #4AD4E1;
+}
+
+.gems{
+    align-content: center !important;
+}
+
+.instructions{
+    background-color: white;
+    border: 2px solid #4AD4E1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: square;
+}
+
+/* .result{
+    text-align: center !important;
+} */
