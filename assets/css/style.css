@@ -22,6 +22,27 @@ body{
     padding-bottom: 5px;
     list-style-type: square;
 }
+img {
+    border: 5px solid transparent;
+}
+
+#gem1:hover{
+    border-color: #188889;
+}
+
+#gem2:hover{
+    border-color: #269369;
+}
+
+#gem3:hover{
+    border-color: #e37329;
+}
+
+#gem4:hover{
+    border-color: #c64f85;
+}
+
+
 
 /* .result{
     text-align: center !important;

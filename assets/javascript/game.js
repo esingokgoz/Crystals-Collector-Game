@@ -63,17 +63,19 @@ $(document).ready(function () {
     //create 4 onclick functions for each gem
     //when each gem is clicked, add gem value to the score and play gem sound
     //display the player score and then call the score function to see if the player win
-    $("img").hover(function () {
-        $(this).css("background-color", "red");
-        $("#gem1").on("click", function () {
-            playerScore += gem1;
-            // music.setAttribute("src", "assets/sound/gem1.mp3");
-            // music.play();
-            $("#playerScore").text(playerScore);
-            game();
 
-        });
+    $("#gem1").on("click", function () {
+        playerScore += gem1;
+        // music.setAttribute("src", "assets/sound/gem1.mp3");
+        // music.play();
+        $("#playerScore").text(playerScore);
+        game();
+
     });
+    // $("#gem1").mouseenter(function () {
+    //     $(img).css("border-color", "red");
+
+    // });
 
     $("#gem2").on("click", function () {
         playerScore += gem2;
@@ -81,7 +83,6 @@ $(document).ready(function () {
         // music.play();
         $("#playerScore").text(playerScore);
         game();
-
     });
 
     $("#gem3").on("click", function () {
@@ -90,7 +91,6 @@ $(document).ready(function () {
         // music.play();
         $("#playerScore").text(playerScore);
         game();
-
     });
 
     $("#gem4").on("click", function () {
@@ -99,15 +99,14 @@ $(document).ready(function () {
         // music.play();
         $("#playerScore").text(playerScore);
         game();
-
     });
 
     //reset function to reset wins & losses
     $("#reset").on("click", function () {
         wins = 0;
-        losses = 0;
-
         $("#wins").text(wins);
+
+        losses = 0;
         $("#losses").text(losses);
 
         reset();
