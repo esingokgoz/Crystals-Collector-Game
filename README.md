@@ -1,4 +1,4 @@
-# Crystals-Collector-Game
+# Crystals Collector Game
 
 Link to game: https://esingokgoz.github.io/Crystals-Collector-Game/
 
